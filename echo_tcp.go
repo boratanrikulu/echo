@@ -8,8 +8,10 @@ import (
 	"net"
 )
 
-var ErrListenerFail = errors.New("starting listener is failed")
-var ErrNoAddress = errors.New("server address is not defined")
+var (
+	ErrListenerFail = errors.New("starting listener is failed")
+	ErrNoAddress    = errors.New("server address is not defined")
+)
 
 // EchoTCP keeps net.Listener and verbose status.
 type EchoTCP struct {

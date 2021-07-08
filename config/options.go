@@ -30,12 +30,12 @@ Options:
 
 * means "must be set".`
 
-func PrintErrorAndDie(err error) {
+func printErrorAndDie(err error) {
 	color.Red(err.Error())
 	os.Exit(1)
 }
 
-func PrintHelpAndExit() {
+func printHelpAndExit() {
 	fmt.Println(usage)
 	os.Exit(0)
 }
@@ -64,13 +64,13 @@ func Configure(fs *flag.FlagSet, args []string) *Options {
 	fs.BoolVar(&opts.ShowHelp, "help", false, "")
 
 	if err := fs.Parse(args); err != nil {
-		PrintErrorAndDie(err)
+		printErrorAndDie(err)
 	}
 	if opts.ShowHelp {
-		PrintHelpAndExit()
+		printHelpAndExit()
 	}
 	if opts.Addr == "" {
-		PrintErrorAndDie(ErrNoAddr)
+		printErrorAndDie(ErrNoAddr)
 	}
 
 	return opts
