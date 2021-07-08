@@ -54,6 +54,14 @@ Options:
 * means "must be set".
 ```
 
+## Live Demo
+
+It lives at **echo.bora.sh:1337**.  
+You can try it using telnet.
+```
+telnet echo.bora.sh 1337
+```
+
 ## Development
 
 To run tests, 
