@@ -2,7 +2,7 @@
 
 <div align="center">
 	<div align="right">
-		<strong><code>v0.1.1</code></strong>
+		<strong><code>v0.1.2</code></strong>
 	</div>
 </div>
 
