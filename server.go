@@ -8,7 +8,7 @@ import (
 	"github.com/boratanrikulu/echo/config"
 )
 
-// Servers gives you higher abstraction for Echo Server.
+// Server gives you higher abstraction for Echo Server.
 type Server interface {
 	Address(string) Server
 	Banner(bool) Server

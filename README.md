@@ -2,7 +2,7 @@
 
 <div align="center">
 	<div align="right">
-		<strong><code>v0.1.0</code></strong>
+		<strong><code>v0.1.1</code></strong>
 	</div>
 </div>
 
@@ -43,7 +43,6 @@ func main() {
  / _ \  / __| | '_ \   / _ \
 |  __/ | (__  | | | | | (_) |
  \___|  \___| |_| |_|  \___/
-                       v0.1.0
 
 Usage: echo [options]
 Options:

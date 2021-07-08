@@ -10,7 +10,7 @@ import (
 )
 
 var ErrNoAddr = errors.New("server address is not defined")
-var version = "v0.1.0"
+var version = "v0.1.1"
 var Banner = `
                _
               | |
